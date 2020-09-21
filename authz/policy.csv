@@ -1,0 +1,7 @@
+p, Admin, /api/v1/courses, POST
+p, Admin, /api/v1/courses/*, DELETE
+p, Admin, /api/v1/auth/logout, POST
+p, Student, /api/v1/course-enrolls, POST
+p, Student, /api/v1/course-enrolls, GET
+p, Student, /api/v1/course-enrolls/*, GET
+p, Student, /api/v1/auth/logout, POST

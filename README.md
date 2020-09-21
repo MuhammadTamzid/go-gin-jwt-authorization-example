@@ -1,8 +1,6 @@
 # Go Gin Jwt Authorizaion Example
 
-REST API example using most useful features
-
-[简体中文](https://github.com/EDDYCJY/go-gin-example/blob/master/README_ZH.md)
+Go Gin Gorm REST API example using most useful features.
 
 ## Required
 
@@ -13,14 +11,14 @@ REST API example using most useful features
 ## Setup & Installation
 
 ```
-cd $GOPATH/src
+$ cd $GOPATH/src
 
-git clone https://github.com/MuhammadTamzid/go-gin-jwt-authorization-example.git
+$ git clone https://github.com/MuhammadTamzid/go-gin-jwt-authorization-example.git
 ```
 
 ### Add ENV variables
 
-You can add .env file in project directory
+You need to set ENV, also you can add `.env` file in project directory.
 
 ```
 DB_HOST=localhost
@@ -40,7 +38,7 @@ REFRESH_TIME_EXPIRED=604800000000000
 PORT=4000
 ```
 
-### Fix \$PATH for Swagger
+### Fix PATH for Swagger
 
 run `$HOME/go/bin/swag` or add `$HOME/go/bin` to your `$PATH`
 
@@ -57,4 +55,4 @@ $ go run main.go
 ## API documents
 
 After run application, browser to http://localhost:4000/swagger/index.html, you can see Swagger Api documents.
-# go-gin-jwt-authorization-example
+![image](https://i.imgur.com/6b4IZQo.jpg)
